@@ -60,7 +60,7 @@ slug: /transformations
 
 * If you want to simply replace a selection marker in your strain, you can do that using designated plasmids in our plasmid list or using primers that will amplify a different selection from a plasmid of choice, where the promoter and terminator are the same as in your strain. This way, there will be a recombination in the promoter and terminator areas flanking the resistance and you will be able to swap it.
 
-* It is very helpful to keep a good and clear file of all your transformations, so you can easily find what you did and with which primers (see suggestion below)
+* It is very helpful to keep a good and clear file of all your transformations, so you can easily find what you did and with which primers (is recommended to include plasmid and primers used for cassette amplification; and primers used for CHK PCR)
 
 * When creating a strain with a contact site reporter using the "split-Venus” method, test both proteins of the contact site reporter, with the two parts of the Venus proteins (VC and VN). In some cases, you can get a better signal with one pair over the other.
 
@@ -70,7 +70,7 @@ slug: /transformations
 
 
 :::note
-- Before performing any genomic modification to a gene, check in SGD if it is essential, if it has close homologs or if it’s overlapping another gene on the opposite strand. If the gene is essential and you still want to ‘delete’ it – consider adding Gal promotor and raise on S-Gal plates until experiment time.
+- Before performing any genomic modification to a gene, check in SGD if it is essential, if it has close homologs or if it’s overlapping another gene on the opposite strand. If the gene is essential and you still want to ‘delete’ it – consider adding Gal promotor and raise on S-Gal plates until experiment time. OTher alternatives include beta-stradiol driven expression or the AID system for depletion. Both will require an extra transformation or starting from a strain that has the required elements (Z3 for estradiol or TIR1 for the AID system).
 :::
 
 
@@ -90,11 +90,15 @@ slug: /transformations
 
 * For really sensitive strains you can do a “soft” transformation – 30’ in 30ºC and 15’ in 42ºC. If cells are super sensitive, you can wash them in 10%LiAc buffer instead of DDW, before adding transformation mix.
 
+* When you expect severe phenotypes, you can plate in 4% glucose. This will give your strains a better chance to survive.
+
 * If your transformation does not work twice consider re-ordering the primers. Sometimes even one point mutation in a primer inhibits homologous recombination and this occurs quite frequently!
 
 * If your transformation still does not work after you have ordered new primers, consider doing it in a diploid (BY4743). This way, if the change to the genome was lethal, it will be covered by the second copy, and you can then see that was the reason.
 
 * If a certain CHK PCR does not work repeatedly, make sure you allow enough annealing and extension time in your PCR program. If still does not work- use Kappa Hifi instead of GoTaq.
+
+* If you don't see any bands in your CHK PCR (i.e. also not actin or positive control), you can improve your DNA extraction efficiency by growing the cells to log phase in liquid. The dividing cells will have a thiner cell wall and break more easily. They you just spin them down, remove the supernatant and add the NaOH + RNAse as usual (you only need around 50ul of culture, and you can keep the rest of your starter for freezing in case the check is positive)
 
 
 :::note
