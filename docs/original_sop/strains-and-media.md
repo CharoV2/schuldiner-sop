@@ -22,6 +22,9 @@ slug: /strains-and-media
 - The lab has several BY4741 and BY4743 strains from different sources.  Make sure you pick the best one for your experiment (the one that is “negative” for your phenotype) and write down the strain number in your notebook so that, if necessary, you can repeat the experiment with the same strain.
 :::
 
+:::note
+
+Note the query strain for SGA and for SWATting are different: yMS6304 has the SGA markers, but can't SWAT. For that you need yMS2085, that also has the SceI expression :::
 
 
 :::note
