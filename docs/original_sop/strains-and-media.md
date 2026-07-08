@@ -22,8 +22,15 @@ slug: /strains-and-media
 - The lab has several BY4741 and BY4743 strains from different sources.  Make sure you pick the best one for your experiment (the one that is “negative” for your phenotype) and write down the strain number in your notebook so that, if necessary, you can repeat the experiment with the same strain.
 :::
 
-
+:::note
+- When preparing a query strain, think if you need SWATting ot not. yMS6304 carries the SGA markers but cnat SWAT; while yMS2085 carries the SceI enzyme on top of the SGA markers, so is the querry for library generation through SWATting
+:::
 
 :::note
 - Note that yeasts behave differently when they express the various auxotrophy markers (Leu, His, Ura, Met etc.) and even if they have an antibiotic resistance marker (NatR or KanR or HygroR) integrated into it – so use the correct strains as controls for your experiments with the same marker integrated into their genome.
+:::
+
+
+:::note
+If you need to thaw a strain and lack the selection media plates, you can thaw it on YPD without selections BUT grow it O/N in liquid selective media prior to your transformation/experiments. Make sure to take a little yeast as you can, so most of the cells you will end up with has been thoroughly exposed to the selection process. 
 :::
